@@ -252,6 +252,17 @@ def render_heatmap_svg(data: dict) -> ET.Element:
 
             cell = _add_rounded_rect(svg, x, y, CELL_SIZE, CELL_SIZE, CELL_RADIUS, fill)
             cell.set("opacity", "0")
+            cell.set("style", "cursor:pointer")
+
+            # Tooltip: show date + contribution count on hover/touch.
+            title_el = ET.SubElement(cell, "title")
+            if day:
+                count = day.get("count", 0)
+                date_str = day.get("date", "")
+                label = "contribution" if count == 1 else "contributions"
+                title_el.text = f"{date_str}  ·  {count} {label}"
+            else:
+                title_el.text = "No contributions"
 
             # Diagonal reveal: delay based on distance from top-left corner.
             diagonal_index = col + row
