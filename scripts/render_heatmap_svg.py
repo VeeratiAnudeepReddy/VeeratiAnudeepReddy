@@ -25,13 +25,14 @@ DEFAULT_USERNAME = "VeeratiAnudeepReddy"
 # ---------------------------------------------------------------------------
 # Visual constants
 # ---------------------------------------------------------------------------
-CELL_SIZE = 10
-CELL_GAP = 2
-CELL_RADIUS = 2
+CELL_SIZE = 11
+CELL_GAP = 3
+CELL_RADIUS = 4
 WEEKS = 53
 DAYS = 7
 
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+# Professional slate → teal palette (replaces the default GitHub blue-green)
+PALETTE = ["#1c2128", "#1a3a4a", "#1e6b7a", "#1f9baa", "#56c2cc"]
 BACKGROUND = "#0d1117"
 TEXT_COLOR = "#c9d1d9"
 SUBTEXT_COLOR = "#8b949e"
