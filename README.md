@@ -1,8 +1,10 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/anudeep-ascii.svg" width="200" alt="Anudeep Reddy" />
+
 # Veerati Anudeep Reddy
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=1000&color=2F81F7&center=true&vCenter=true&width=560&lines=Computer+Science+Undergraduate;Full-Stack+%2B+AI%2FML+Developer;1st+Place+Webathon+4.0+Winner;Building+Scalable+%2B+Intelligent+Systems)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1000&color=2F81F7&center=true&vCenter=true&width=560&lines=Computer+Science+Undergraduate;Full-Stack+%2B+AI%2FML+Developer;1st+Place+Webathon+4.0+Winner;Building+Scalable+%2B+Intelligent+Systems)](https://git.io/typing-svg)
 
 *Turning ideas into impact — one commit at a time.*
 
@@ -10,18 +12,18 @@
 
 ---
 
-## 📌 About
+## About
 
-- 🎓 **Education:** B.Tech Computer Science — **VNR Vignana Jyothi Institute of Engineering and Technology** (2024–2028) · CGPA **9.37 / 10.0**
-- 💼 **Experience:** Full Stack Developer Intern at **PSNM Innovations** (Feb–Apr 2026)
-- ⚡ **Workflows:** AI-assisted development using **Cursor**, **Claude Code**, and **GitHub Copilot**
-- 🎯 **Focus:** Scalable full-stack systems with AI/ML integration
+- **Education:** B.Tech Computer Science — **VNR Vignana Jyothi Institute of Engineering and Technology** (2024–2028) · CGPA **9.37 / 10.0**
+- **Experience:** Full Stack Developer Intern at **PSNM Innovations** (Feb–Apr 2026)
+- **Workflows:** AI-assisted development using **Cursor**, **Claude Code**, and **GitHub Copilot**
+- **Focus:** Scalable full-stack systems with AI/ML integration
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🚆 [AI Railway Optimization Platform](https://github.com/Digital-India-Hackathon-2026/hawkins-crew)
+### [AI Railway Optimization Platform](https://github.com/Digital-India-Hackathon-2026/hawkins-crew)
 
 Accessibility-first route finder across an **8,737-station database** covering **64% of the railway network**, using time-expanded graphs and CP-SAT constraint optimization.
 
@@ -31,9 +33,9 @@ Accessibility-first route finder across an **8,737-station database** covering *
 
 ---
 
-### 🏙️ [Civix — Civic Issue Reporting Platform](https://github.com/VeeratiAnudeepReddy/Micro-Task)
+### [Civix — Civic Issue Reporting Platform](https://github.com/VeeratiAnudeepReddy/Micro-Task)
 
-Full-stack civic issue reporting platform with GPS tagging, AI-powered validation, and real-time tracking; reached **50+ users in testing**. 🏆 **1st Place Winner** — Webathon 4.0 *(1,000+ participants)*
+Full-stack civic issue reporting platform with GPS tagging, AI-powered validation, and real-time tracking; reached **50+ users in testing**. **1st Place** — Webathon 4.0 *(1,000+ participants)*
 
 ![React.js](https://img.shields.io/badge/React.js-2F81F7?style=flat-square&labelColor=161b22&logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-2F81F7?style=flat-square&labelColor=161b22&logo=nodedotjs&logoColor=white)
@@ -41,9 +43,9 @@ Full-stack civic issue reporting platform with GPS tagging, AI-powered validatio
 
 ---
 
-### 🚦 [AI-Based Urban Traffic Flow Optimization System](https://github.com/VeeratiAnudeepReddy/DES_OI_Hawkins-Crew)
+### [AI-Based Urban Traffic Flow Optimization System](https://github.com/VeeratiAnudeepReddy/DES_OI_Hawkins-Crew)
 
-Adaptive traffic signal control engine using **YOLOv8 + OpenCV** for real-time vehicle detection, cutting total waiting time by **29.89%** vs. fixed-timing signals (SUMO-validated). 🥈 **First Runner-Up** — VNR Designathon 2026 *(Top 30 of 2,800+ registrations)*
+Adaptive traffic signal control engine using **YOLOv8 + OpenCV** for real-time vehicle detection, cutting total waiting time by **29.89%** vs. fixed-timing signals (SUMO-validated). **First Runner-Up** — VNR Designathon 2026 *(Top 30 of 2,800+ registrations)*
 
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-2F81F7?style=flat-square&labelColor=161b22&logo=opencv&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-2F81F7?style=flat-square&labelColor=161b22&logo=opencv&logoColor=white)
@@ -52,7 +54,7 @@ Adaptive traffic signal control engine using **YOLOv8 + OpenCV** for real-time v
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 **Languages**
 
@@ -94,21 +96,21 @@ Adaptive traffic signal control engine using **YOLOv8 + OpenCV** for real-time v
 
 ---
 
-## 🏆 Achievements
+## Achievements
 
-- 🥇 **1st Place** — Webathon 4.0 Hackathon *(Civix, 1,000+ participants)*
-- 🥈 **First Runner-Up** — VNR Designathon 2026, Open Innovation Track *(Top 30 of 2,800+ registrations)*
-- 🎯 **Finalist** — Solution Sprint Ideathon
-- ⭐ **2★ CodeChef** — Rating 1420
-- 📜 **Microsoft Certified:** Power BI Data Analyst Associate
-- 📜 **ServiceNow Virtual Internship Program** — SmartBridge
-- 📜 **Generative AI Certification** — Udemy
-- 👥 **Action Committee Member**, Turing Hut Coding Club *(Selected from 900+ students)*
-- 👥 **Member**, Computer Society of India (CSI)
+- **1st Place** — Webathon 4.0 Hackathon *(Civix, 1,000+ participants)*
+- **First Runner-Up** — VNR Designathon 2026, Open Innovation Track *(Top 30 of 2,800+ registrations)*
+- **Finalist** — Solution Sprint Ideathon
+- **2★ CodeChef** — Rating 1420
+- **Microsoft Certified:** Power BI Data Analyst Associate
+- **ServiceNow Virtual Internship Program** — SmartBridge
+- **Generative AI Certification** — Udemy
+- **Action Committee Member**, Turing Hut Coding Club *(Selected from 900+ students)*
+- **Member**, Computer Society of India (CSI)
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=VeeratiAnudeepReddy&show_icons=true&hide_border=true&title_color=2f81f7&icon_color=2f81f7&text_color=c9d1d9&bg_color=0d1117" height="160" alt="GitHub Stats" />
@@ -120,7 +122,7 @@ Adaptive traffic signal control engine using **YOLOv8 + OpenCV** for real-time v
 
 ---
 
-## 🔌 Connect
+## Connect
 
 <div align="center">
 
