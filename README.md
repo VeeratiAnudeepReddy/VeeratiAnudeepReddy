@@ -1,22 +1,22 @@
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/anudeep-ascii.svg" width="200" alt="Anudeep Reddy" />
-
-# Veerati Anudeep Reddy
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1000&color=2F81F7&center=true&vCenter=true&width=560&lines=Computer+Science+Undergraduate;Full-Stack+%2B+AI%2FML+Developer;1st+Place+Webathon+4.0+Winner;Building+Scalable+%2B+Intelligent+Systems)](https://git.io/typing-svg)
-
-*Turning ideas into impact — one commit at a time.*
-
-</div>
+<table>
+  <tr>
+    <td valign="middle" width="220">
+      <img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/anudeep-ascii.svg" width="210" alt="Anudeep Reddy" />
+    </td>
+    <td valign="middle">
+      <h1>Veerati Anudeep Reddy</h1>
+      <p>Computer Science Undergraduate &nbsp;·&nbsp; Full-Stack + AI/ML</p>
+      <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1000&color=2F81F7&center=false&vCenter=true&width=480&lines=Computer+Science+Undergraduate;Full-Stack+%2B+AI%2FML+Developer;1st+Place+Webathon+4.0+Winner;Building+Scalable+%2B+Intelligent+Systems" alt="Typing SVG" />
+      </a>
+      <p><em>Turning ideas into impact — one commit at a time.</em></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/contrib-heatmap.svg" width="820" alt="Contribution Heatmap" />
-
-</div>
+<img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/contrib-heatmap.svg" width="100%" alt="Contribution Heatmap" />
 
 ---
 
