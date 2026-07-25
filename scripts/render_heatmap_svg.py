@@ -31,8 +31,8 @@ CELL_RADIUS = 4
 WEEKS = 53
 DAYS = 7
 
-# Professional slate → teal palette (replaces the default GitHub blue-green)
-PALETTE = ["#1c2128", "#1a3a4a", "#1e6b7a", "#1f9baa", "#56c2cc"]
+# GitHub's original green palette — matches the native contribution calendar
+PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
 BACKGROUND = "#0d1117"
 TEXT_COLOR = "#c9d1d9"
 SUBTEXT_COLOR = "#8b949e"
