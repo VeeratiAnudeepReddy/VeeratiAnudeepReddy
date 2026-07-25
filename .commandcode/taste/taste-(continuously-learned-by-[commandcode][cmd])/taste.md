@@ -5,3 +5,12 @@
 - Likes generous spacing, terminal-style prompts, and centered layouts in READMEs. Confidence: 0.85
 - Prefers image widths to be explicit and consistent across the README. Confidence: 0.85
 - Wants deliverables to be production-ready and output as the file only, without explanatory commentary. Confidence: 0.9
+- Prefers dark-mode-first, monochrome palettes with subtle green terminal accents for GitHub profile READMEs. Confidence: 0.9
+- Prefers shields.io flat-square badges in monochrome/dark themes, avoiding rainbow badge walls. Confidence: 0.9
+- Avoids gimmicky README widgets (visitor counters, Spotify widgets, quote generators, blinking GIFs, emoji spam). Confidence: 0.95
+- Aesthetic references for profile design: Apple, Linear, Vercel, Raycast, Arc Browser, GitHub — not hobbyist. Confidence: 0.85
+- Prefers scannable bullet lists over paragraphs for About/Achievements-style sections. Confidence: 0.85
+- Prefers minimal section headers without emoji spam (e.g., `## About`, `## Featured Projects`). Confidence: 0.85
+- Prefers to strip documentation/boilerplate sections from GitHub profile READMEs (setup, project structure, license, implementation tables). Confidence: 0.9
+- Expects critical URLs and placeholders to be filled before running a prompt (repo links, contact URLs, etc.). Confidence: 0.85
+- Wants project cards/blocks with title, one-line description, tech stack, and repo link in READMEs. Confidence: 0.85
