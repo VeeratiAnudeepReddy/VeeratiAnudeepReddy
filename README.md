@@ -16,10 +16,6 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/contrib-heatmap.svg" width="100%" alt="Contribution Heatmap" />
-
----
-
 ## About
 
 - **Education:** B.Tech Computer Science — **VNR Vignana Jyothi Institute of Engineering and Technology** (2024–2028) · CGPA **9.37 / 10.0**
