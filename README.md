@@ -16,7 +16,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/contrib-heatmap.svg" width="100%" alt="Contribution Heatmap" />
+<img src="https://ghchart.rshah.org/1f9baa/VeeratiAnudeepReddy" width="100%" alt="Contribution Heatmap" />
 
 ---
 

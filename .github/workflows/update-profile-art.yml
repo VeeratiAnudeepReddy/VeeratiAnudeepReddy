@@ -1,34 +1,41 @@
-name: Update Profile Art
+name: Update Profile Heatmap
 
 on:
   schedule:
-    # TODO: Pick a sensible cron schedule for automatic updates.
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"   # Daily at midnight UTC
+  workflow_dispatch:       # Allow manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write          # Needed to commit the updated SVG back to the repo
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
-    steps:
-      # TODO: Check out the repository.
-      - uses: actions/checkout@v4
 
-      # TODO: Set up the desired Python version.
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # TODO: Install dependencies from scripts/requirements.txt.
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      # TODO: Run the generation scripts in the correct order.
-      - name: Generate profile art
-        run: |
-          echo "Generation steps go here"
+      - name: Fetch contribution data (authenticated — includes private)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/fetch_contributions.py --output data/contributions.json
 
-      # TODO: Commit and push the updated assets.
-      - name: Commit changes
+      - name: Regenerate heatmap SVG
+        run: python3 scripts/render_heatmap_svg.py --input data/contributions.json --output contrib-heatmap.svg
+
+      - name: Commit and push updated assets
         run: |
-          echo "Commit and push steps go here"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/contributions.json contrib-heatmap.svg
+          git diff --cached --quiet || git commit -m "chore: refresh contribution heatmap [skip ci]"
+          git push
