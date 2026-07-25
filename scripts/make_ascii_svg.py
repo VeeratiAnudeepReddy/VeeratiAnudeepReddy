@@ -26,7 +26,13 @@ DEFAULT_OUTPUT = "anudeep-ascii.svg"
 DENSITY_RAMP = " .`:-=+*cs#%@"
 
 # Visual constants -----------------------------------------------------------
-TARGET_COLUMNS = 100
+# The ASCII grid is constrained to fit comfortably next to the info card in a
+# two-column README layout while preserving the source aspect ratio.
+MAX_COLUMNS = 70
+MAX_ROWS = 90
+PADDING_COLS = 6  # whitespace on each side, in character columns
+PADDING_ROWS = 6  # whitespace on each side, in text rows
+
 FONT_SIZE = 10
 CHAR_WIDTH = 6
 LINE_HEIGHT = 10
@@ -67,22 +73,35 @@ def load_image(path: str | Path) -> Image.Image:
     return image
 
 
-def resize_to_columns(image: Image.Image, target_columns: int = TARGET_COLUMNS) -> Image.Image:
-    """Resize an image so its width is roughly ``target_columns`` pixels.
+def resize_to_fit(
+    image: Image.Image,
+    max_columns: int = MAX_COLUMNS,
+    max_rows: int = MAX_ROWS,
+) -> Image.Image:
+    """Resize an image so it fits within a maximum ASCII grid while preserving aspect ratio.
+
+    The image is scaled to fit inside ``max_columns`` × ``max_rows`` cells. If
+    one dimension would exceed the limit, the image is scaled down using the
+    smaller of the two candidate ratios.
 
     Args:
         image: A PIL ``Image``.
-        target_columns: Desired width in pixels.
+        max_columns: Maximum number of ASCII columns allowed.
+        max_rows: Maximum number of ASCII rows allowed.
 
     Returns:
         A resized PIL ``Image`` preserving the original aspect ratio.
     """
     width, height = image.size
-    if width != target_columns:
-        ratio = target_columns / width
-        new_size = (target_columns, max(1, int(height * ratio)))
-        image = image.resize(new_size, Image.Resampling.LANCZOS)
-    return image
+    ratio_w = max_columns / width
+    ratio_h = max_rows / height
+    ratio = min(ratio_w, ratio_h, 1.0)  # Never upscale beyond the source size.
+
+    new_size = (
+        max(1, int(round(width * ratio))),
+        max(1, int(round(height * ratio))),
+    )
+    return image.resize(new_size, Image.Resampling.LANCZOS)
 
 
 def convert_to_ascii(image: Image.Image) -> list[str]:
@@ -103,11 +122,23 @@ def convert_to_ascii(image: Image.Image) -> list[str]:
     return ["".join(DENSITY_RAMP[idx] for idx in row) for row in indices]
 
 
-def _view_dimensions(rows: int, cols: int) -> tuple[int, int]:
-    """Compute the SVG viewBox size from the ASCII grid dimensions."""
-    view_width = cols * CHAR_WIDTH
-    view_height = rows * LINE_HEIGHT
-    return view_width, view_height
+def _view_dimensions(rows: int, cols: int) -> tuple[int, int, int, int]:
+    """Compute the SVG viewBox size and padding offsets.
+
+    Args:
+        rows: Number of ASCII rows.
+        cols: Number of ASCII columns.
+
+    Returns:
+        A tuple of ``(view_width, view_height, pad_x, pad_y)``.
+    """
+    art_width = cols * CHAR_WIDTH
+    art_height = rows * LINE_HEIGHT
+    pad_x = PADDING_COLS * CHAR_WIDTH
+    pad_y = PADDING_ROWS * LINE_HEIGHT
+    view_width = art_width + 2 * pad_x
+    view_height = art_height + 2 * pad_y
+    return view_width, view_height, pad_x, pad_y
 
 
 def build_svg(ascii_rows: list[str]) -> str:
@@ -121,7 +152,9 @@ def build_svg(ascii_rows: list[str]) -> str:
     """
     rows = len(ascii_rows)
     cols = len(ascii_rows[0]) if rows else 0
-    view_width, view_height = _view_dimensions(rows, cols)
+    view_width, view_height, pad_x, pad_y = _view_dimensions(rows, cols)
+    art_width = cols * CHAR_WIDTH
+    art_height = rows * LINE_HEIGHT
     total_duration = rows * ROW_REVEAL_DURATION
 
     svg = ET.Element(
@@ -129,6 +162,8 @@ def build_svg(ascii_rows: list[str]) -> str:
         {
             "xmlns": SVG_NS,
             "viewBox": f"0 0 {view_width} {view_height}",
+            "width": str(view_width),
+            "height": str(view_height),
             "preserveAspectRatio": "xMidYMid meet",
         },
     )
@@ -152,10 +187,10 @@ def build_svg(ascii_rows: list[str]) -> str:
     # Group that holds all ASCII rows.
     ascii_group = ET.SubElement(svg, "g", {"class": "ascii-art"})
 
-    x_positions = ",".join(str(c * CHAR_WIDTH) for c in range(cols))
+    x_positions = ",".join(str(pad_x + c * CHAR_WIDTH) for c in range(cols))
 
     for row_index, row_text in enumerate(ascii_rows):
-        baseline = (row_index + 1) * LINE_HEIGHT
+        baseline = pad_y + (row_index + 1) * LINE_HEIGHT
         row_start = row_index * ROW_REVEAL_DURATION
         clip_id = f"clip-row-{row_index}"
 
@@ -165,8 +200,8 @@ def build_svg(ascii_rows: list[str]) -> str:
             clip_path,
             "rect",
             {
-                "x": "0",
-                "y": str(row_index * LINE_HEIGHT),
+                "x": str(pad_x),
+                "y": str(pad_y + row_index * LINE_HEIGHT),
                 "width": "0",
                 "height": str(LINE_HEIGHT),
             },
@@ -177,7 +212,7 @@ def build_svg(ascii_rows: list[str]) -> str:
             {
                 "attributeName": "width",
                 "from": "0",
-                "to": str(view_width),
+                "to": str(art_width),
                 "begin": f"{row_start:.1f}s",
                 "dur": f"{ROW_REVEAL_DURATION}s",
                 "fill": "freeze",
@@ -203,7 +238,8 @@ def build_svg(ascii_rows: list[str]) -> str:
 
     # Terminal cursor that follows the reveal path row by row.
     cursor_path = " ".join(
-        f"M 0,{(i + 1) * LINE_HEIGHT} L {view_width},{(i + 1) * LINE_HEIGHT}"
+        f"M {pad_x},{pad_y + (i + 1) * LINE_HEIGHT} "
+        f"L {pad_x + art_width},{pad_y + (i + 1) * LINE_HEIGHT}"
         for i in range(rows)
     )
     cursor = ET.SubElement(
@@ -278,7 +314,7 @@ def main(argv: list[str] | None = None) -> int:
         image = load_image(args.input)
 
         print("Generating ASCII...")
-        image = resize_to_columns(image)
+        image = resize_to_fit(image)
         ascii_rows = convert_to_ascii(image)
 
         print("Building SVG...")

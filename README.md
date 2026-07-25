@@ -1,89 +1,106 @@
-# GitHub Profile Art Generator
+<div align="center">
 
-Automated, GitHub-renderable profile art built with pure SVG and Python.
+`anudeep@github:~$ whoami`
 
-- Animated ASCII portrait
-- Neofetch-style info card
-- GitHub contribution heatmap
+<table>
+  <tr>
+    <td valign="top">
+      <img src="./anudeep-ascii.svg" width="220px" alt="ASCII Portrait">
+    </td>
+    <td valign="top">
+      <img src="./info-card.svg" width="520px" alt="Info Card">
+    </td>
+  </tr>
+</table>
 
-Everything is generated locally as static SVG using SMIL animations—no JavaScript.
+</div>
 
----
+<br>
 
-## Generated Art
+<div align="center">
 
-### ASCII Portrait
+`anudeep@github:~$ ./contributions.sh`
 
-![ASCII Portrait](./anudeep-ascii.svg)
+<img src="./contrib-heatmap.svg" width="900px" alt="Contribution Heatmap">
 
-### Info Card
+</div>
 
-![Info Card](./info-card.svg)
+<br>
 
-### Contribution Heatmap
+## 👋 About Me
 
-![Contribution Heatmap](./contrib-heatmap.svg)
+**Anudeep Reddy Veerati**
 
----
+Computer Science Undergraduate at VNR VJIET
 
-## How It Works
+CGPA: **9.35**
 
-| Script | Purpose | Output |
+Passionate about
+
+• AI  
+• Full Stack Development  
+• Competitive Programming  
+• System Design
+
+Achievements
+
+⭐ CodeChef 2★  
+🏆 Webathon Winner
+
+<br>
+
+## 🚀 Featured Projects
+
+| Project | Description | Tech Stack |
 | --- | --- | --- |
-| [`scripts/prep_photo.py`](./scripts/prep_photo.py) | Removes the background, grayscales, runs CLAHE/denoise, and resizes the source photo. | `assets/source-prepped.png` |
-| [`scripts/make_ascii_svg.py`](./scripts/make_ascii_svg.py) | Maps the prepped photo to a monospace density ramp and renders a typing-style ASCII SVG. | `anudeep-ascii.svg` |
-| [`scripts/make_info_card.py`](./scripts/make_info_card.py) | Builds a neofetch-style terminal card with profile details and a row-by-row typing animation. | `info-card.svg` |
-| [`scripts/fetch_contributions.py`](./scripts/fetch_contributions.py) | Scrapes the public GitHub contributions page (no token, no GraphQL) and computes stats/streaks. | `data/contributions.json` |
-| [`scripts/render_heatmap_svg.py`](./scripts/render_heatmap_svg.py) | Renders a 53-week × 7-day animated contribution heatmap. | `contrib-heatmap.svg` |
+| **Civix** | Civic issue reporting and resolution platform | React, Node.js, MongoDB |
+| **StudyAI** | AI-powered study planner and assistant | Next.js, Python, OpenAI |
+| **Pothole Mapper** | Road defect detection and mapping system | Flutter, YOLO, Firebase |
+| **VoIP Caller** | Voice-over-IP calling application | Dart, WebRTC, Node.js |
 
----
+<br>
 
-## Local Setup
+## 🛠 Tech Stack
 
-```bash
-# Create a virtual environment
-python3 -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+**Languages**
 
-# Install dependencies
-pip install -r scripts/requirements.txt
+![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
 
-# Run the full pipeline
-python3 scripts/prep_photo.py
-python3 scripts/make_ascii_svg.py
-python3 scripts/make_info_card.py
-python3 scripts/fetch_contributions.py
-python3 scripts/render_heatmap_svg.py
-```
+**Frontend**
 
----
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white)
 
-## Project Structure
+**Backend**
 
-```text
-.
-├── .github/workflows/update-profile-art.yml   # Placeholder automation workflow
-├── assets/
-│   ├── source-photo.jpg                       # Source portrait
-│   └── source-prepped.png                     # Processed portrait
-├── data/
-│   └── contributions.json                     # Parsed contribution data
-├── scripts/
-│   ├── fetch_contributions.py
-│   ├── make_ascii_svg.py
-│   ├── make_info_card.py
-│   ├── prep_photo.py
-│   ├── render_heatmap_svg.py
-│   └── requirements.txt
-├── anudeep-ascii.svg
-├── contrib-heatmap.svg
-├── info-card.svg
-├── LICENSE
-└── README.md
-```
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000?logo=express&logoColor=white)
 
----
+**Databases**
 
-## License
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-DD2C00?logo=firebase&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
 
-MIT. See [`LICENSE`](./LICENSE).
+**AI**
+
+![YOLO](https://img.shields.io/badge/YOLO-111F4D?logo=opencv&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?logo=huggingface&logoColor=black)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+
+<br>
+
+## 📫 Connect
+
+[![GitHub](https://img.shields.io/badge/GitHub-@anudeepreddyveerati-181717?logo=github)](https://github.com/anudeepreddyveerati)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Anudeep%20Reddy%20Veerati-0A66C2?logo=linkedin)](https://linkedin.com/in/your-link)
+[![Portfolio](https://img.shields.io/badge/Portfolio-website-000?logo=google-chrome)](https://your-portfolio.com)
+[![Email](https://img.shields.io/badge/Email-anudeep@example.com-EA4335?logo=gmail)](mailto:anudeep@example.com)
