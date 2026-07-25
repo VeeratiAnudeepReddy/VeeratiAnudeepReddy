@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="./anudeep-ascii.svg" width="180" alt="ASCII Portrait" />
+
+<br>
+
 # Veerati Anudeep Reddy
 
 **Computer Science Undergraduate | Full-Stack + AI/ML**
@@ -8,9 +12,7 @@
 
 <br>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=1000&color=2F81F7&center=true&vCenter=true&width=560&lines=Computer+Science+Undergraduate;Full-Stack+%2B+AI%2FML+Developer;1st+Place+Webathon+4.0+Winner;Building+Scalable+%2B+Intelligent+Systems" alt="Typing SVG" />
-</a>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=1000&color=2F81F7&center=true&vCenter=true&width=560&lines=Computer+Science+Undergraduate;Full-Stack+%2B+AI%2FML+Developer;1st+Place+Webathon+4.0+Winner;Building+Scalable+%2B+Intelligent+Systems)](https://git.io/typing-svg)
 
 </div>
 
