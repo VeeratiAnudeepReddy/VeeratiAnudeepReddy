@@ -1,8 +1,5 @@
 <table>
   <tr>
-    <td valign="middle" width="220">
-      <img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/anudeep-ascii.svg" width="210" alt="Anudeep Reddy" />
-    </td>
     <td valign="middle">
       <h1>Veerati Anudeep Reddy</h1>
       <p>Computer Science Undergraduate &nbsp;·&nbsp; Full-Stack + AI/ML</p>
@@ -10,6 +7,9 @@
         <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2800&pause=1000&color=1F9BAA&center=false&vCenter=true&width=480&lines=Computer+Science+Undergraduate;Full-Stack+%2B+AI%2FML+Developer;1st+Place+Webathon+4.0+Winner;Building+Scalable+%2B+Intelligent+Systems" alt="Typing SVG" />
       </a>
       <p><em>Turning ideas into impact — one commit at a time.</em></p>
+    </td>
+    <td valign="middle" width="220" align="right">
+      <img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/anudeep-ascii.svg" width="210" alt="Anudeep Reddy" />
     </td>
   </tr>
 </table>

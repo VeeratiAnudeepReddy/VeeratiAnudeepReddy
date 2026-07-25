@@ -251,7 +251,6 @@ def render_heatmap_svg(data: dict) -> ET.Element:
             y = GRID_Y0 + row * (CELL_SIZE + CELL_GAP)
 
             cell = _add_rounded_rect(svg, x, y, CELL_SIZE, CELL_SIZE, CELL_RADIUS, fill)
-            cell.set("opacity", "0")
             cell.set("style", "cursor:pointer")
 
             # Tooltip: show date + contribution count on hover/touch.
@@ -264,20 +263,6 @@ def render_heatmap_svg(data: dict) -> ET.Element:
             else:
                 title_el.text = "No contributions"
 
-            # Diagonal reveal: delay based on distance from top-left corner.
-            diagonal_index = col + row
-            begin = diagonal_index * DIAGONAL_DELAY
-
-            animate = ET.SubElement(cell, "animate")
-            animate.set("attributeName", "opacity")
-            animate.set("from", "0")
-            animate.set("to", "1")
-            animate.set("dur", f"{CELL_ANIMATION_DURATION}s")
-            animate.set("begin", f"{begin:.3f}s")
-            animate.set("fill", "freeze")
-            animate.set("calcMode", "spline")
-            animate.set("keySplines", "0.4 0 0.2 1")
-            animate.set("keyTimes", "0;1")
 
     # Legend.
     legend_x = MARGIN_LEFT
