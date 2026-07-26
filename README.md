@@ -20,7 +20,7 @@
 
 - **Education:** B.Tech Computer Science — **VNR Vignana Jyothi Institute of Engineering and Technology** (2024–2028) · CGPA **9.37 / 10.0**
 - **Experience:** Full Stack Developer Intern at **PSNM Innovations** (Feb–Apr 2026)
-- **Workflows:** AI-assisted development using **Cursor**, **Claude Code**, and **GitHub Copilot**
+- **Workflows:** AI-assisted Development using **Cursor**, **Claude Code**, and **GitHub Copilot**
 - **Focus:** Scalable full-stack systems with AI/ML integration
 
 ---
