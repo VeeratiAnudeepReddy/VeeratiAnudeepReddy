@@ -136,3 +136,4 @@ Adaptive traffic signal control engine using **YOLOv8 + OpenCV** for real-time v
 [![Email](https://img.shields.io/badge/Email-anudeepreddy016%40gmail.com-1F9BAA?style=for-the-badge&labelColor=161b22&logo=gmail&logoColor=white)](mailto:anudeepreddy016@gmail.com)
 
 </div>
+
