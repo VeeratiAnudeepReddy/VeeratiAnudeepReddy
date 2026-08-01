@@ -1,14 +1,8 @@
 {
   "username": "VeeratiAnudeepReddy",
-  "fetched_at": "2026-07-31T02:24:54.006531+00:00",
+  "fetched_at": "2026-08-01T02:26:02.950661+00:00",
   "source": "graphql",
   "days": [
-    {
-      "date": "2025-07-31",
-      "count": 0,
-      "level": 0,
-      "month": "Jul"
-    },
     {
       "date": "2025-08-01",
       "count": 0,
@@ -2198,6 +2192,12 @@
       "count": 0,
       "level": 0,
       "month": "Jul"
+    },
+    {
+      "date": "2026-08-01",
+      "count": 0,
+      "level": 0,
+      "month": "Aug"
     }
   ],
   "stats": {
@@ -2209,7 +2209,6 @@
       "count": 9
     },
     "monthly_totals": {
-      "Jul": 30,
       "Aug": 0,
       "Sep": 0,
       "Oct": 0,
@@ -2220,7 +2219,8 @@
       "Mar": 1,
       "Apr": 12,
       "May": 0,
-      "Jun": 0
+      "Jun": 0,
+      "Jul": 30
     }
   }
 }
