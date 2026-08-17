@@ -1,6 +1,6 @@
 {
   "username": "VeeratiAnudeepReddy",
-  "fetched_at": "2026-08-16T01:02:26.116063+00:00",
+  "fetched_at": "2026-08-17T00:59:38.232505+00:00",
   "source": "graphql",
   "days": [
     {
@@ -2189,6 +2189,12 @@
     },
     {
       "date": "2026-08-16",
+      "count": 0,
+      "level": 0,
+      "month": "Aug"
+    },
+    {
+      "date": "2026-08-17",
       "count": 0,
       "level": 0,
       "month": "Aug"
