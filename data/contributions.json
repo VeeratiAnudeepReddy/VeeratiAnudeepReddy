@@ -1,20 +1,8 @@
 {
   "username": "VeeratiAnudeepReddy",
-  "fetched_at": "2026-09-19T02:53:33.710858+00:00",
+  "fetched_at": "2026-09-20T03:06:00.638062+00:00",
   "source": "graphql",
   "days": [
-    {
-      "date": "2025-09-19",
-      "count": 0,
-      "level": 0,
-      "month": "Sep"
-    },
-    {
-      "date": "2025-09-20",
-      "count": 0,
-      "level": 0,
-      "month": "Sep"
-    },
     {
       "date": "2025-09-21",
       "count": 0,
@@ -2195,6 +2183,12 @@
     },
     {
       "date": "2026-09-19",
+      "count": 0,
+      "level": 0,
+      "month": "Sep"
+    },
+    {
+      "date": "2026-09-20",
       "count": 0,
       "level": 0,
       "month": "Sep"
