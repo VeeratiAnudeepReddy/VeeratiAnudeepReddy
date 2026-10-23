@@ -11,7 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
@@ -27,21 +27,24 @@ DEFAULT_USERNAME = "VeeratiAnudeepReddy"
 # ---------------------------------------------------------------------------
 CELL_SIZE = 11
 CELL_GAP = 3
-CELL_RADIUS = 4
+CELL_RADIUS = 2.5
 WEEKS = 53
 DAYS = 7
 
 # GitHub's original green palette — matches the native contribution calendar
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+# Teal ramp to match the profile accent (#1F9BAA)
+PALETTE = ["#161b22", "#0f3d44", "#146673", "#1f9baa", "#5fd4e0"]
 BACKGROUND = "#0d1117"
-TEXT_COLOR = "#c9d1d9"
-SUBTEXT_COLOR = "#8b949e"
+BORDER_COLOR = "#30363d"
+TEXT_COLOR = "#e6edf3"
+SUBTEXT_COLOR = "#7d8590"
 FONT_FAMILY = "'JetBrains Mono', 'Cascadia Code', Consolas, monospace"
 
-SVG_WIDTH = 820
-MARGIN_LEFT = 80
-MARGIN_TOP = 80
-GRID_Y0 = MARGIN_TOP + 20
+MARGIN_LEFT = 56
+MARGIN_RIGHT = 32
+MARGIN_TOP = 64
+SVG_WIDTH = MARGIN_LEFT + WEEKS * (CELL_SIZE + CELL_GAP) - CELL_GAP + MARGIN_RIGHT
+GRID_Y0 = MARGIN_TOP + 8
 GRID_X0 = MARGIN_LEFT
 
 DIAGONAL_DELAY = 0.04  # seconds per diagonal step
@@ -88,12 +91,13 @@ def build_grid(days: list[dict]) -> list[list[dict]]:
     if not days:
         return grid
 
-    start_date = datetime.strptime(days[0]["date"], "%Y-%m-%d").date()
+    first = datetime.strptime(days[0]["date"], "%Y-%m-%d").date()
+    # Anchor columns on the Sunday that starts the first day's week.
+    anchor = first - timedelta(days=(first.weekday() + 1) % DAYS)
 
     for day in days:
         date_obj = datetime.strptime(day["date"], "%Y-%m-%d").date()
-        delta_days = (date_obj - start_date).days
-        col = delta_days // DAYS
+        col = (date_obj - anchor).days // DAYS
         # GitHub rows: Sunday = 0, Monday = 1, ..., Saturday = 6.
         row = (date_obj.weekday() + 1) % DAYS
 
@@ -161,8 +165,10 @@ def _month_label_x_positions(days: list[dict]) -> list[tuple[str, float]]:
     if not days:
         return labels
 
-    start_date = datetime.strptime(days[0]["date"], "%Y-%m-%d").date()
+    first = datetime.strptime(days[0]["date"], "%Y-%m-%d").date()
+    anchor = first - timedelta(days=(first.weekday() + 1) % DAYS)
     seen_months: set[str] = set()
+    last_x = -100.0
 
     for day in days:
         date_obj = datetime.strptime(day["date"], "%Y-%m-%d").date()
@@ -171,11 +177,13 @@ def _month_label_x_positions(days: list[dict]) -> list[tuple[str, float]]:
             continue
         seen_months.add(month_key)
 
-        delta_days = (date_obj - start_date).days
-        col = delta_days // DAYS
+        col = (date_obj - anchor).days // DAYS
         x = GRID_X0 + col * (CELL_SIZE + CELL_GAP)
-        label = date_obj.strftime("%b")
-        labels.append((label, x))
+        # Drop a label that would collide with the previous one (partial first month).
+        if x - last_x < 30:
+            continue
+        labels.append((date_obj.strftime("%b"), x))
+        last_x = x
 
     return labels
 
@@ -195,9 +203,9 @@ def render_heatmap_svg(data: dict) -> ET.Element:
 
     # Calculate SVG height based on grid and footer content.
     grid_height = DAYS * (CELL_SIZE + CELL_GAP) - CELL_GAP
-    legend_y = GRID_Y0 + grid_height + 35
-    footer_y = legend_y + 55
-    svg_height = footer_y + 50
+    legend_y = GRID_Y0 + grid_height + 30
+    footer_y = legend_y + 52
+    svg_height = footer_y + 40
 
     svg = ET.Element("svg")
     svg.set("xmlns", "http://www.w3.org/2000/svg")
@@ -208,22 +216,23 @@ def render_heatmap_svg(data: dict) -> ET.Element:
     svg.set("aria-label", "Contribution heatmap")
 
     # Background.
-    _add_rounded_rect(svg, 0, 0, SVG_WIDTH, svg_height, 12, BACKGROUND)
+    bg = _add_rounded_rect(svg, 0.5, 0.5, SVG_WIDTH - 1, svg_height - 1, 12, BACKGROUND)
+    bg.set("stroke", BORDER_COLOR)
 
     # Title.
     username = data.get("username", DEFAULT_USERNAME)
     _add_text(
         svg,
         MARGIN_LEFT,
-        45,
-        f"{username}'s Contribution Activity",
-        font_size=18,
+        34,
+        f"{stats.get('total_contributions', 0)} contributions in the last year",
+        font_size=15,
         font_weight="bold",
     )
 
     # Month labels.
     for label, x in _month_label_x_positions(days):
-        _add_text(svg, x, GRID_Y0 - 10, label, fill=SUBTEXT_COLOR, font_size=11)
+        _add_text(svg, x, GRID_Y0 - 8, label, fill=SUBTEXT_COLOR, font_size=10)
 
     # Weekday labels (left side).
     weekday_labels = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
@@ -232,7 +241,7 @@ def render_heatmap_svg(data: dict) -> ET.Element:
             y = GRID_Y0 + row * (CELL_SIZE + CELL_GAP) + CELL_SIZE - 1
             _add_text(
                 svg,
-                MARGIN_LEFT - 12,
+                MARGIN_LEFT - 10,
                 y,
                 label,
                 fill=SUBTEXT_COLOR,
@@ -244,7 +253,9 @@ def render_heatmap_svg(data: dict) -> ET.Element:
     for row in range(DAYS):
         for col in range(WEEKS):
             day = grid[row][col]
-            level = day["level"] if day else 0
+            if day is None:
+                continue
+            level = day["level"]
             fill = PALETTE[level]
 
             x = GRID_X0 + col * (CELL_SIZE + CELL_GAP)
@@ -255,20 +266,16 @@ def render_heatmap_svg(data: dict) -> ET.Element:
 
             # Tooltip: show date + contribution count on hover/touch.
             title_el = ET.SubElement(cell, "title")
-            if day:
-                count = day.get("count", 0)
-                date_str = day.get("date", "")
-                label = "contribution" if count == 1 else "contributions"
-                title_el.text = f"{date_str}  ·  {count} {label}"
-            else:
-                title_el.text = "No contributions"
+            count = day.get("count", 0)
+            label = "contribution" if count == 1 else "contributions"
+            title_el.text = f"{day.get('date', '')}  ·  {count} {label}"
 
 
     # Legend.
-    legend_x = MARGIN_LEFT
-    _add_text(svg, legend_x, legend_y, "Less", fill=SUBTEXT_COLOR, font_size=11)
+    legend_x = SVG_WIDTH - MARGIN_RIGHT - 130
+    _add_text(svg, legend_x, legend_y, "Less", fill=SUBTEXT_COLOR, font_size=10)
 
-    legend_square_x = legend_x + 45
+    legend_square_x = legend_x + 30
     for level, color in enumerate(PALETTE):
         _add_rounded_rect(
             svg,
@@ -281,22 +288,29 @@ def render_heatmap_svg(data: dict) -> ET.Element:
         )
     _add_text(
         svg,
-        legend_square_x + 5 * (CELL_SIZE + CELL_GAP) + 10,
+        legend_square_x + 5 * (CELL_SIZE + CELL_GAP) + 4,
         legend_y,
         "More",
         fill=SUBTEXT_COLOR,
-        font_size=11,
+        font_size=10,
     )
+
+    divider = ET.SubElement(svg, "line")
+    for k, v in (("x1", MARGIN_LEFT), ("x2", SVG_WIDTH - MARGIN_RIGHT),
+                 ("y1", footer_y - 22), ("y2", footer_y - 22),
+                 ("stroke", BORDER_COLOR), ("stroke-width", 1)):
+        divider.set(k, str(v))
 
     # Footer statistics.
     stats_items = [
         ("Total Contributions", str(stats.get("total_contributions", 0))),
         ("Current Streak", f"{stats.get('current_streak', 0)} days"),
         ("Longest Streak", f"{stats.get('longest_streak', 0)} days"),
+        ("Best Day", f"{(stats.get('best_day') or {}).get('count', 0)} commits"),
     ]
 
     footer_x_start = MARGIN_LEFT
-    footer_x_end = SVG_WIDTH - MARGIN_LEFT
+    footer_x_end = SVG_WIDTH - MARGIN_RIGHT
     available_width = footer_x_end - footer_x_start
     section_width = available_width / len(stats_items)
 
@@ -308,7 +322,7 @@ def render_heatmap_svg(data: dict) -> ET.Element:
             footer_y,
             label,
             fill=SUBTEXT_COLOR,
-            font_size=11,
+            font_size=10,
             text_anchor="middle",
         )
         _add_text(
@@ -317,7 +331,7 @@ def render_heatmap_svg(data: dict) -> ET.Element:
             footer_y + 22,
             value,
             fill=TEXT_COLOR,
-            font_size=18,
+            font_size=16,
             font_weight="bold",
             text_anchor="middle",
         )

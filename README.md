@@ -16,124 +16,146 @@
 
 ---
 
-## About
+<div align="center">
 
-- **Education:** B.Tech Computer Science — **VNR Vignana Jyothi Institute of Engineering and Technology** (2024–2028) · CGPA **9.37 / 10.0**
-- **Experience:** Full Stack Developer Intern at **PSNM Innovations** (Feb–Apr 2026)
-- **Workflows:** AI-assisted Development using **Cursor**, **Claude Code**, and **GitHub Copilot**
-- **Focus:** Scalable full-stack systems with AI/ML integration
+**CGPA 9.37** &nbsp;·&nbsp; **1st Place** Webathon 4.0 &nbsp;·&nbsp; **1st Runner-Up** VNR Designathon 2026 &nbsp;·&nbsp; **2★** CodeChef
+
+</div>
 
 ---
+
+## About
+
+| | |
+|---|---|
+| 🎓 **Education** | B.Tech Computer Science — **VNR Vignana Jyothi Institute of Engineering and Technology** (2024–2028) · CGPA **9.37 / 10.0** |
+| 💼 **Experience** | Full Stack Developer Intern at **PSNM Innovations** (Feb–Apr 2026) |
+| 🤖 **Workflows** | AI-assisted development with **Cursor**, **Claude Code** and **GitHub Copilot** |
+| 🎯 **Focus** | Scalable full-stack systems with AI/ML integration |
 
 ## Featured Projects
 
-### [AI Railway Optimization Platform](https://github.com/Digital-India-Hackathon-2026/hawkins-crew)
+<table>
+<tr>
+<td valign="top" width="50%">
+
+#### [AI Railway Optimization Platform](https://github.com/Digital-India-Hackathon-2026/hawkins-crew)
 
 Accessibility-first route finder across an **8,737-station database** covering **64% of the railway network**, using time-expanded graphs and CP-SAT constraint optimization.
 
-![Python](https://img.shields.io/badge/Python-1F9BAA?style=for-the-badge&labelColor=161b22&logo=python&logoColor=white)
-![CP-SAT](https://img.shields.io/badge/CP--SAT-1F9BAA?style=for-the-badge&labelColor=161b22&logoColor=white)
-![Graph Algorithms](https://img.shields.io/badge/Graph_Algorithms-1F9BAA?style=for-the-badge&labelColor=161b22&logoColor=white)
+<img src="https://img.shields.io/badge/Python-1F9BAA?style=flat-square&labelColor=0d1117&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/CP--SAT-1F9BAA?style=flat-square&labelColor=0d1117&logo=googlecolab&logoColor=white" alt="CP-SAT" />
+<img src="https://img.shields.io/badge/Graph_Algorithms-1F9BAA?style=flat-square&labelColor=0d1117&logo=graphql&logoColor=white" alt="Graph Algorithms" />
 
----
+</td>
+<td valign="top" width="50%">
 
-### [Civix — Civic Issue Reporting Platform](https://github.com/VeeratiAnudeepReddy/Micro-Task)
+#### [Civix — Civic Issue Reporting](https://github.com/VeeratiAnudeepReddy/Micro-Task)
 
-Full-stack civic issue reporting platform with GPS tagging, AI-powered validation, and real-time tracking; reached **50+ users in testing**. **1st Place** — Webathon 4.0 *(1,000+ participants)*
+Full-stack civic issue reporting platform with GPS tagging, AI-powered validation and real-time tracking; reached **50+ users in testing**.
+<sub>🏆 <b>1st Place — Webathon 4.0 (1,000+ participants)</b></sub>
 
-![React.js](https://img.shields.io/badge/React.js-1F9BAA?style=for-the-badge&labelColor=161b22&logo=react&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-1F9BAA?style=for-the-badge&labelColor=161b22&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-1F9BAA?style=for-the-badge&labelColor=161b22&logo=mongodb&logoColor=white)
+<img src="https://img.shields.io/badge/React-1F9BAA?style=flat-square&labelColor=0d1117&logo=react&logoColor=white" alt="React" />
+<img src="https://img.shields.io/badge/Node.js-1F9BAA?style=flat-square&labelColor=0d1117&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/MongoDB-1F9BAA?style=flat-square&labelColor=0d1117&logo=mongodb&logoColor=white" alt="MongoDB" />
 
----
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
 
-### [AI-Based Urban Traffic Flow Optimization System](https://github.com/VeeratiAnudeepReddy/DES_OI_Hawkins-Crew)
+#### [AI Urban Traffic Flow Optimization](https://github.com/VeeratiAnudeepReddy/DES_OI_Hawkins-Crew)
 
-Adaptive traffic signal control engine using **YOLOv8 + OpenCV** for real-time vehicle detection, cutting total waiting time by **29.89%** vs. fixed-timing signals (SUMO-validated). **First Runner-Up** — VNR Designathon 2026 *(Top 30 of 2,800+ registrations)*
+Adaptive signal control using **YOLOv8 + OpenCV** for real-time vehicle detection, cutting total waiting time by **29.89%** vs. fixed-timing signals (SUMO-validated).
+<sub>🏆 <b>First Runner-Up — VNR Designathon 2026 (Top 30 of 2,800+)</b></sub>
 
-![YOLOv8](https://img.shields.io/badge/YOLOv8-1F9BAA?style=for-the-badge&labelColor=161b22&logo=opencv&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-1F9BAA?style=for-the-badge&labelColor=161b22&logo=opencv&logoColor=white)
-![SUMO](https://img.shields.io/badge/SUMO-1F9BAA?style=for-the-badge&labelColor=161b22&logo=sumologic&logoColor=white)
-![Python](https://img.shields.io/badge/Python-1F9BAA?style=for-the-badge&labelColor=161b22&logo=python&logoColor=white)
+<img src="https://img.shields.io/badge/YOLOv8-1F9BAA?style=flat-square&labelColor=0d1117&logo=opencv&logoColor=white" alt="YOLOv8" />
+<img src="https://img.shields.io/badge/OpenCV-1F9BAA?style=flat-square&labelColor=0d1117&logo=opencv&logoColor=white" alt="OpenCV" />
+<img src="https://img.shields.io/badge/SUMO-1F9BAA?style=flat-square&labelColor=0d1117&logo=sumologic&logoColor=white" alt="SUMO" />
+<img src="https://img.shields.io/badge/Python-1F9BAA?style=flat-square&labelColor=0d1117&logo=python&logoColor=white" alt="Python" />
 
----
+</td>
+<td valign="top" width="50%">
+
+#### More on GitHub
+
+Browse all repositories, experiments and hackathon builds.
+
+[**View repositories →**](https://github.com/VeeratiAnudeepReddy?tab=repositories)
+
+</td>
+</tr>
+</table>
 
 ## Tech Stack
 
-**Languages**
-
-![C](https://img.shields.io/badge/C-1F9BAA?style=for-the-badge&labelColor=161b22&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-1F9BAA?style=for-the-badge&labelColor=161b22&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-1F9BAA?style=for-the-badge&labelColor=161b22&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-1F9BAA?style=for-the-badge&labelColor=161b22&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-1F9BAA?style=for-the-badge&labelColor=161b22&logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-1F9BAA?style=for-the-badge&labelColor=161b22&logo=javascript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-1F9BAA?style=for-the-badge&labelColor=161b22&logo=postgresql&logoColor=white)
-
-**Frontend & Backend**
-
-![React.js](https://img.shields.io/badge/React.js-1F9BAA?style=for-the-badge&labelColor=161b22&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-1F9BAA?style=for-the-badge&labelColor=161b22&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-1F9BAA?style=for-the-badge&labelColor=161b22&logo=nodedotjs&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-1F9BAA?style=for-the-badge&labelColor=161b22&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1F9BAA?style=for-the-badge&labelColor=161b22&logo=css3&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-1F9BAA?style=for-the-badge&labelColor=161b22&logo=flutter&logoColor=white)
-
-**AI / ML & Data**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-1F9BAA?style=for-the-badge&labelColor=161b22&logo=pytorch&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-1F9BAA?style=for-the-badge&labelColor=161b22&logo=opencv&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-1F9BAA?style=for-the-badge&labelColor=161b22&logo=opencv&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1F9BAA?style=for-the-badge&labelColor=161b22&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-1F9BAA?style=for-the-badge&labelColor=161b22&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-1F9BAA?style=for-the-badge&labelColor=161b22&logo=numpy&logoColor=white)
-
-**Databases & Tools**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1F9BAA?style=for-the-badge&labelColor=161b22&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-1F9BAA?style=for-the-badge&labelColor=161b22&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-1F9BAA?style=for-the-badge&labelColor=161b22&logo=firebase&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-1F9BAA?style=for-the-badge&labelColor=161b22&logo=supabase&logoColor=white)
-![Git](https://img.shields.io/badge/Git-1F9BAA?style=for-the-badge&labelColor=161b22&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-1F9BAA?style=for-the-badge&labelColor=161b22&logo=github&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-1F9BAA?style=for-the-badge&labelColor=161b22&logo=powerbi&logoColor=white)
-
----
+<table>
+<tr><td width="170"><b>Languages</b></td><td>
+<img src="https://img.shields.io/badge/C-1F9BAA?style=flat-square&labelColor=0d1117&logo=c&logoColor=white" alt="C" />
+<img src="https://img.shields.io/badge/C%2B%2B-1F9BAA?style=flat-square&labelColor=0d1117&logo=cplusplus&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/Python-1F9BAA?style=flat-square&labelColor=0d1117&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Java-1F9BAA?style=flat-square&labelColor=0d1117&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/Kotlin-1F9BAA?style=flat-square&labelColor=0d1117&logo=kotlin&logoColor=white" alt="Kotlin" />
+<img src="https://img.shields.io/badge/JavaScript-1F9BAA?style=flat-square&labelColor=0d1117&logo=javascript&logoColor=white" alt="JavaScript" />
+<img src="https://img.shields.io/badge/SQL-1F9BAA?style=flat-square&labelColor=0d1117&logo=postgresql&logoColor=white" alt="SQL" />
+</td></tr>
+<tr><td width="170"><b>Frontend &amp; Backend</b></td><td>
+<img src="https://img.shields.io/badge/React-1F9BAA?style=flat-square&labelColor=0d1117&logo=react&logoColor=white" alt="React" />
+<img src="https://img.shields.io/badge/Next.js-1F9BAA?style=flat-square&labelColor=0d1117&logo=nextdotjs&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/Node.js-1F9BAA?style=flat-square&labelColor=0d1117&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/HTML5-1F9BAA?style=flat-square&labelColor=0d1117&logo=html5&logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1F9BAA?style=flat-square&labelColor=0d1117&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/Flutter-1F9BAA?style=flat-square&labelColor=0d1117&logo=flutter&logoColor=white" alt="Flutter" />
+</td></tr>
+<tr><td width="170"><b>AI / ML &amp; Data</b></td><td>
+<img src="https://img.shields.io/badge/PyTorch-1F9BAA?style=flat-square&labelColor=0d1117&logo=pytorch&logoColor=white" alt="PyTorch" />
+<img src="https://img.shields.io/badge/YOLOv8-1F9BAA?style=flat-square&labelColor=0d1117&logo=opencv&logoColor=white" alt="YOLOv8" />
+<img src="https://img.shields.io/badge/OpenCV-1F9BAA?style=flat-square&labelColor=0d1117&logo=opencv&logoColor=white" alt="OpenCV" />
+<img src="https://img.shields.io/badge/Scikit--Learn-1F9BAA?style=flat-square&labelColor=0d1117&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
+<img src="https://img.shields.io/badge/Pandas-1F9BAA?style=flat-square&labelColor=0d1117&logo=pandas&logoColor=white" alt="Pandas" />
+<img src="https://img.shields.io/badge/NumPy-1F9BAA?style=flat-square&labelColor=0d1117&logo=numpy&logoColor=white" alt="NumPy" />
+</td></tr>
+<tr><td width="170"><b>Databases &amp; Tools</b></td><td>
+<img src="https://img.shields.io/badge/PostgreSQL-1F9BAA?style=flat-square&labelColor=0d1117&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/MongoDB-1F9BAA?style=flat-square&labelColor=0d1117&logo=mongodb&logoColor=white" alt="MongoDB" />
+<img src="https://img.shields.io/badge/Firebase-1F9BAA?style=flat-square&labelColor=0d1117&logo=firebase&logoColor=white" alt="Firebase" />
+<img src="https://img.shields.io/badge/Supabase-1F9BAA?style=flat-square&labelColor=0d1117&logo=supabase&logoColor=white" alt="Supabase" />
+<img src="https://img.shields.io/badge/Git-1F9BAA?style=flat-square&labelColor=0d1117&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-1F9BAA?style=flat-square&labelColor=0d1117&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/Power_BI-1F9BAA?style=flat-square&labelColor=0d1117&logo=powerbi&logoColor=white" alt="Power BI" />
+</td></tr>
+</table>
 
 ## Achievements
 
-- **1st Place** — Webathon 4.0 Hackathon *(Civix, 1,000+ participants)*
-- **First Runner-Up** — VNR Designathon 2026, Open Innovation Track *(Top 30 of 2,800+ registrations)*
-- **Finalist** — Solution Sprint Ideathon
-- **2★ CodeChef** — Rating 1420
-- **Microsoft Certified:** Power BI Data Analyst Associate
-- **ServiceNow Virtual Internship Program** — SmartBridge
-- **Generative AI Certification** — Udemy
-- **Action Committee Member**, Turing Hut Coding Club *(Selected from 900+ students)*
-- **Member**, Computer Society of India (CSI)
+- 🥇 **1st Place** — Webathon 4.0 Hackathon *(Civix, 1,000+ participants)*
+- 🥈 **First Runner-Up** — VNR Designathon 2026, Open Innovation Track *(Top 30 of 2,800+ registrations)*
+- 🏁 **Finalist** — Solution Sprint Ideathon
+- ⭐ **2★ CodeChef** — Rating 1420
+- 📜 **Microsoft Certified:** Power BI Data Analyst Associate
+- 📜 **ServiceNow Virtual Internship Program** — SmartBridge
+- 📜 **Generative AI Certification** — Udemy
+- 👥 **Action Committee Member**, Turing Hut Coding Club *(Selected from 900+ students)*
+- 👥 **Member**, Computer Society of India (CSI)
 
----
+## Contribution Activity
 
-## GitHub Stats
+<div align="center">
+  <img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/contrib-heatmap.svg" alt="Contribution heatmap" width="100%" />
+</div>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VeeratiAnudeepReddy&show_icons=true&hide_border=true&title_color=1f9baa&icon_color=1f9baa&text_color=c9d1d9&bg_color=0d1117" height="160" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VeeratiAnudeepReddy&layout=compact&hide_border=true&title_color=1f9baa&text_color=c9d1d9&bg_color=0d1117" height="160" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=VeeratiAnudeepReddy&show_icons=true&hide_border=true&title_color=1f9baa&icon_color=1f9baa&text_color=c9d1d9&bg_color=0d1117" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VeeratiAnudeepReddy&layout=compact&hide_border=true&title_color=1f9baa&text_color=c9d1d9&bg_color=0d1117" height="165" alt="Top Languages" />
 </p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VeeratiAnudeepReddy&hide_border=true&background=0d1117&ring=1f9baa&fire=1f9baa&currStreakLabel=1f9baa&sideLabels=c9d1d9&dates=c9d1d9&sideNums=c9d1d9&currStreakNum=ffffff" height="160" alt="GitHub Streak" />
-</p>
-
----
 
 ## Connect
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-VeeratiAnudeepReddy-1F9BAA?style=for-the-badge&labelColor=161b22&logo=github&logoColor=white)](https://github.com/VeeratiAnudeepReddy)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Anudeep%20Reddy%20Veerati-1F9BAA?style=for-the-badge&labelColor=161b22&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anudeep-reddy-veerati-336268332/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-anudeepreddyveerati.dev-1F9BAA?style=for-the-badge&labelColor=161b22&logo=googlechrome&logoColor=white)](https://anudeepreddyveerati.dev)
-[![Email](https://img.shields.io/badge/Email-anudeepreddy016%40gmail.com-1F9BAA?style=for-the-badge&labelColor=161b22&logo=gmail&logoColor=white)](mailto:anudeepreddy016@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-VeeratiAnudeepReddy-1F9BAA?style=flat-square&labelColor=0d1117&logo=github&logoColor=white)](https://github.com/VeeratiAnudeepReddy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Anudeep%20Reddy%20Veerati-1F9BAA?style=flat-square&labelColor=0d1117&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anudeep-reddy-veerati-336268332/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-anudeepreddyveerati.dev-1F9BAA?style=flat-square&labelColor=0d1117&logo=googlechrome&logoColor=white)](https://anudeepreddyveerati.dev)
+[![Email](https://img.shields.io/badge/Email-anudeepreddy016%40gmail.com-1F9BAA?style=flat-square&labelColor=0d1117&logo=gmail&logoColor=white)](mailto:anudeepreddy016@gmail.com)
 
 </div>
-
