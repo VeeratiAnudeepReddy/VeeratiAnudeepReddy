@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="48" viewBox="0 0 840 48" role="img" aria-label="Projects">
+<title>Projects</title>
+<text x="0" y="30" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" font-weight="normal" text-anchor="start">~</text>
+<text x="16" y="30" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" font-weight="bold" text-anchor="start">$</text>
+<text x="32" y="30" fill="#e6edf3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="14" font-weight="bold" text-anchor="start">ls projects/</text>
+<rect x="720" y="22" width="120" height="3" rx="1.5" ry="1.5" fill="#30363d"/>
+<rect x="720" y="22" width="40" height="3" rx="1.5" ry="1.5" fill="#3fb950"/>
+</svg>

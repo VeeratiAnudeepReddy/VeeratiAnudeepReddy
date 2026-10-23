@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="312" viewBox="0 0 840 312" role="img" aria-label="Technical skills">
+<title>Technical skills</title>
+<rect x="0.5" y="0.5" width="839" height="311" rx="10" ry="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+<text x="24" y="40" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="bold" text-anchor="start">Languages</text>
+<rect x="136" y="24" width="37.9375" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="145" y="39.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">C++</text>
+<rect x="181.9375" y="24" width="44.58333333333333" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="190.9375" y="39.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Java</text>
+<rect x="234.52083333333331" y="24" width="57.875" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="243.52083333333331" y="39.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Python</text>
+<rect x="300.3958333333333" y="24" width="84.45833333333333" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="309.3958333333333" y="39.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">JavaScript</text>
+<rect x="392.85416666666663" y="24" width="57.875" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="401.85416666666663" y="39.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Kotlin</text>
+<rect x="458.72916666666663" y="24" width="24.645833333333332" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="467.72916666666663" y="39.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">C</text>
+<rect x="491.37499999999994" y="24" width="37.9375" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="500.37499999999994" y="39.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">SQL</text>
+<rect x="537.3125" y="24" width="44.58333333333333" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="546.3125" y="39.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">HTML</text>
+<rect x="589.8958333333334" y="24" width="37.9375" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="598.8958333333334" y="39.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">CSS</text>
+<rect x="24" y="55" width="792" height="1" rx="0.5" ry="0.5" fill="#30363d"/>
+<text x="24" y="80" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="bold" text-anchor="start">Frontend</text>
+<rect x="136" y="64" width="71.16666666666666" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="145" y="79.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">React.js</text>
+<rect x="215.16666666666666" y="64" width="64.52083333333334" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="224.16666666666666" y="79.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Next.js</text>
+<rect x="287.6875" y="64" width="97.75" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="296.6875" y="79.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Tailwind CSS</text>
+<rect x="393.4375" y="64" width="71.16666666666666" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="402.4375" y="79.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Three.js</text>
+<rect x="472.60416666666663" y="64" width="97.75" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="481.60416666666663" y="79.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">React Native</text>
+<rect x="578.3541666666666" y="64" width="64.52083333333334" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="587.3541666666666" y="79.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Flutter</text>
+<rect x="650.875" y="64" width="64.52083333333334" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="659.875" y="79.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Android</text>
+<rect x="24" y="95" width="792" height="1" rx="0.5" ry="0.5" fill="#30363d"/>
+<text x="24" y="120" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="bold" text-anchor="start">Backend</text>
+<rect x="136" y="104" width="64.52083333333334" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="145" y="119.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Node.js</text>
+<rect x="208.52083333333334" y="104" width="84.45833333333333" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="217.52083333333334" y="119.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Express.js</text>
+<rect x="300.9791666666667" y="104" width="64.52083333333334" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="309.9791666666667" y="119.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">FastAPI</text>
+<rect x="373.5" y="104" width="77.8125" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="382.5" y="119.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">REST APIs</text>
+<rect x="459.3125" y="104" width="77.8125" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="468.3125" y="119.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Socket.io</text>
+<rect x="24" y="135" width="792" height="1" rx="0.5" ry="0.5" fill="#30363d"/>
+<text x="24" y="160" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="bold" text-anchor="start">Databases</text>
+<rect x="136" y="144" width="64.52083333333334" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="145" y="159.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">MongoDB</text>
+<rect x="208.52083333333334" y="144" width="84.45833333333333" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="217.52083333333334" y="159.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">PostgreSQL</text>
+<rect x="300.9791666666667" y="144" width="71.16666666666666" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="309.9791666666667" y="159.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Firebase</text>
+<rect x="380.14583333333337" y="144" width="71.16666666666666" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="389.14583333333337" y="159.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Supabase</text>
+<rect x="459.3125" y="144" width="71.16666666666666" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="468.3125" y="159.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">ChromaDB</text>
+<rect x="24" y="175" width="792" height="1" rx="0.5" ry="0.5" fill="#30363d"/>
+<text x="24" y="200" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="bold" text-anchor="start">AI / ML</text>
+<rect x="136" y="184" width="97.75" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="145" y="199.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">scikit-learn</text>
+<rect x="241.75" y="184" width="57.875" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="250.75" y="199.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">YOLOv8</text>
+<rect x="307.625" y="184" width="57.875" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="316.625" y="199.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">OpenCV</text>
+<rect x="373.5" y="184" width="51.229166666666664" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="382.5" y="199.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">NumPy</text>
+<rect x="432.7291666666667" y="184" width="57.875" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="441.7291666666667" y="199.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Pandas</text>
+<rect x="498.6041666666667" y="184" width="71.16666666666666" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="507.6041666666667" y="199.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">LLM APIs</text>
+<rect x="577.7708333333334" y="184" width="37.9375" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="586.7708333333334" y="199.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">RAG</text>
+<rect x="24" y="215" width="792" height="1" rx="0.5" ry="0.5" fill="#30363d"/>
+<text x="24" y="240" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="bold" text-anchor="start">Tools</text>
+<rect x="136" y="224" width="37.9375" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="145" y="239.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Git</text>
+<rect x="181.9375" y="224" width="57.875" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="190.9375" y="239.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">GitHub</text>
+<rect x="247.8125" y="224" width="57.875" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="256.8125" y="239.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Cursor</text>
+<rect x="313.6875" y="224" width="91.10416666666667" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="322.6875" y="239.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Claude Code</text>
+<rect x="412.7916666666667" y="224" width="111.04166666666667" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="421.7916666666667" y="239.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">GitHub Copilot</text>
+<rect x="531.8333333333334" y="224" width="71.16666666666666" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="540.8333333333334" y="239.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Power BI</text>
+<rect x="24" y="255" width="792" height="1" rx="0.5" ry="0.5" fill="#30363d"/>
+<text x="24" y="280" fill="#7ee787" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="bold" text-anchor="start">Core CS</text>
+<rect x="136" y="264" width="217.375" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="145" y="279.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Data Structures and Algorithms</text>
+<rect x="361.375" y="264" width="37.9375" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="370.375" y="279.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">OOP</text>
+<rect x="407.3125" y="264" width="44.58333333333333" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="416.3125" y="279.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">DBMS</text>
+<rect x="459.8958333333333" y="264" width="130.97916666666669" height="24" rx="6" ry="6" fill="#21262d"/>
+<text x="468.8958333333333" y="279.85" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="normal" text-anchor="start">Operating Systems</text>
+</svg>

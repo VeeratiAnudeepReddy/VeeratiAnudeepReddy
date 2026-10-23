@@ -32,8 +32,8 @@ WEEKS = 53
 DAYS = 7
 
 # GitHub's original green palette — matches the native contribution calendar
-# Teal ramp to match the profile accent (#1F9BAA)
-PALETTE = ["#161b22", "#0f3d44", "#146673", "#1f9baa", "#5fd4e0"]
+# Terminal-green ramp shared with the README components
+PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#3fb950"]
 BACKGROUND = "#0d1117"
 BORDER_COLOR = "#30363d"
 TEXT_COLOR = "#e6edf3"
@@ -216,7 +216,7 @@ def render_heatmap_svg(data: dict) -> ET.Element:
     svg.set("aria-label", "Contribution heatmap")
 
     # Background.
-    bg = _add_rounded_rect(svg, 0.5, 0.5, SVG_WIDTH - 1, svg_height - 1, 12, BACKGROUND)
+    bg = _add_rounded_rect(svg, 0.5, 0.5, SVG_WIDTH - 1, svg_height - 1, 10, BACKGROUND)
     bg.set("stroke", BORDER_COLOR)
 
     # Title.
