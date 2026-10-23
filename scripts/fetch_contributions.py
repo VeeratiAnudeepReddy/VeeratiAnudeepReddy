@@ -24,7 +24,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -94,7 +94,10 @@ def fetch_via_graphql(username: str, token: str) -> list[dict]:
     now = datetime.now(timezone.utc)
     # GitHub's contributionsCollection accepts an ISO-8601 datetime range.
     # We fetch the last 12 months.
-    from_dt = now.replace(year=now.year - 1).isoformat()
+    # Start on the Sunday of the first week so the grid matches GitHub's own graph.
+    start = now.replace(year=now.year - 1, hour=0, minute=0, second=0, microsecond=0)
+    start -= timedelta(days=(start.weekday() + 1) % 7)
+    from_dt = start.isoformat()
     to_dt = now.isoformat()
 
     session = _create_session()
