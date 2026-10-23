@@ -141,7 +141,7 @@ Browse all repositories, experiments and hackathon builds.
 ## Contribution Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/contrib-heatmap.svg" alt="Contribution heatmap" width="100%" />
+  <img src="https://raw.githubusercontent.com/VeeratiAnudeepReddy/VeeratiAnudeepReddy/main/contrib-heatmap.svg?v=2" alt="Contribution heatmap" width="100%" />
 </div>
 
 <p align="center">
