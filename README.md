@@ -18,7 +18,7 @@
 
 <div align="center">
 
-**CGPA 9.37** &nbsp;·&nbsp; **1st Place** Webathon 4.0 &nbsp;·&nbsp; **1st Runner-Up** VNR Designathon 2026 &nbsp;·&nbsp; **2★** CodeChef
+**CGPA 9.37** &nbsp;·&nbsp; **3× 1st Place** &nbsp;·&nbsp; **Runner-Up** VJ Hackathon (10,000+) &nbsp;·&nbsp; **First Runner-Up** VNR Designathon 2026 &nbsp;·&nbsp; **2★** CodeChef
 
 </div>
 
@@ -128,15 +128,27 @@ Browse all repositories, experiments and hackathon builds.
 
 ## Achievements
 
-- 🥇 **1st Place** — Webathon 4.0 Hackathon *(Civix, 1,000+ participants)*
-- 🥈 **First Runner-Up** — VNR Designathon 2026, Open Innovation Track *(Top 30 of 2,800+ registrations)*
-- 🏁 **Finalist** — Solution Sprint Ideathon
-- ⭐ **2★ CodeChef** — Rating 1420
-- 📜 **Microsoft Certified:** Power BI Data Analyst Associate
-- 📜 **ServiceNow Virtual Internship Program** — SmartBridge
-- 📜 **Generative AI Certification** — Udemy
-- 👥 **Action Committee Member**, Turing Hut Coding Club *(Selected from 900+ students)*
-- 👥 **Member**, Computer Society of India (CSI)
+| | Award | Event | Highlight |
+|:-:|---|---|---|
+| 🥇 | **1st Place** | Convergence 2K26 — Software Hackathon | Intelligent Shipment Piggybacking (NetworkX) |
+| 🥇 | **1st Place** | Convergence 2K26 — Project Contest | Traffic Optimization; featured in *India Education Diary* |
+| 🥇 | **1st Place** | Webathon 4.0 | Civix — among **1,000+** participants |
+| 🥈 | **Runner-Up** | VJ Hackathon | Among **10,000+** participants |
+| 🥈 | **First Runner-Up** | VNR Designathon 2026 | Top 30 of **2,800+** registrations |
+| 🏁 | **Finalist** | Solution Sprint Ideathon | — |
+| ⭐ | **2★ CodeChef** | Competitive programming | Rating **1420** |
+
+### Certifications
+
+- **Microsoft Certified:** Power BI Data Analyst Associate
+- **ServiceNow Virtual Internship** — SmartBridge
+- **Generative AI** — Udemy
+
+### Leadership
+
+- **Chairperson**, Gamma Club (Research Club of VNR VJIET) — heads student research initiatives
+- **Action Committee Member**, Turing Hut Coding Club — selected from 900+ students
+- **Member**, Computer Society of India (CSI)
 
 ## Contribution Activity
 
