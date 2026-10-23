@@ -1,7 +1,7 @@
 {
   "username": "VeeratiAnudeepReddy",
-  "fetched_at": "2026-10-23T10:41:20.988668+00:00",
-  "source": "scrape",
+  "fetched_at": "2026-10-23T15:59:47.068528+00:00",
+  "source": "graphql",
   "days": [
     {
       "date": "2025-10-19",
@@ -773,8 +773,8 @@
     },
     {
       "date": "2026-02-24",
-      "count": 0,
-      "level": 0,
+      "count": 1,
+      "level": 1,
       "month": "Feb"
     },
     {
@@ -941,8 +941,8 @@
     },
     {
       "date": "2026-03-24",
-      "count": 1,
-      "level": 1,
+      "count": 3,
+      "level": 2,
       "month": "Mar"
     },
     {
@@ -1013,7 +1013,7 @@
     },
     {
       "date": "2026-04-05",
-      "count": 3,
+      "count": 4,
       "level": 2,
       "month": "Apr"
     },
@@ -1691,7 +1691,7 @@
     },
     {
       "date": "2026-07-27",
-      "count": 8,
+      "count": 10,
       "level": 4,
       "month": "Jul"
     },
@@ -1937,7 +1937,7 @@
     },
     {
       "date": "2026-09-06",
-      "count": 4,
+      "count": 5,
       "level": 2,
       "month": "Sep"
     },
@@ -1949,8 +1949,8 @@
     },
     {
       "date": "2026-09-08",
-      "count": 0,
-      "level": 0,
+      "count": 1,
+      "level": 1,
       "month": "Sep"
     },
     {
@@ -2034,7 +2034,7 @@
     {
       "date": "2026-09-22",
       "count": 5,
-      "level": 3,
+      "level": 2,
       "month": "Sep"
     },
     {
@@ -2063,8 +2063,8 @@
     },
     {
       "date": "2026-09-27",
-      "count": 2,
-      "level": 1,
+      "count": 3,
+      "level": 2,
       "month": "Sep"
     },
     {
@@ -2147,32 +2147,32 @@
     },
     {
       "date": "2026-10-11",
-      "count": 0,
-      "level": 0,
+      "count": 17,
+      "level": 4,
       "month": "Oct"
     },
     {
       "date": "2026-10-12",
-      "count": 0,
-      "level": 0,
+      "count": 14,
+      "level": 4,
       "month": "Oct"
     },
     {
       "date": "2026-10-13",
-      "count": 0,
-      "level": 0,
+      "count": 4,
+      "level": 2,
       "month": "Oct"
     },
     {
       "date": "2026-10-14",
-      "count": 0,
-      "level": 0,
+      "count": 49,
+      "level": 4,
       "month": "Oct"
     },
     {
       "date": "2026-10-15",
-      "count": 0,
-      "level": 0,
+      "count": 4,
+      "level": 2,
       "month": "Oct"
     },
     {
@@ -2201,8 +2201,8 @@
     },
     {
       "date": "2026-10-20",
-      "count": 0,
-      "level": 0,
+      "count": 1,
+      "level": 1,
       "month": "Oct"
     },
     {
@@ -2219,32 +2219,32 @@
     },
     {
       "date": "2026-10-23",
-      "count": 5,
+      "count": 7,
       "level": 3,
       "month": "Oct"
     }
   ],
   "stats": {
-    "total_contributions": 106,
+    "total_contributions": 206,
     "current_streak": 1,
     "longest_streak": 6,
     "best_day": {
-      "date": "2026-02-21",
-      "count": 9
+      "date": "2026-10-14",
+      "count": 49
     },
     "monthly_totals": {
-      "Oct": 16,
+      "Oct": 107,
       "Nov": 0,
       "Dec": 0,
       "Jan": 0,
-      "Feb": 17,
-      "Mar": 1,
-      "Apr": 13,
+      "Feb": 18,
+      "Mar": 3,
+      "Apr": 14,
       "May": 0,
       "Jun": 0,
-      "Jul": 30,
+      "Jul": 32,
       "Aug": 4,
-      "Sep": 25
+      "Sep": 28
     }
   }
 }
